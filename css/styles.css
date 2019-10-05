@@ -38,3 +38,19 @@ ul {
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.main-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 90px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    align-items: center;
+}
