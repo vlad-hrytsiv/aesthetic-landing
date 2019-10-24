@@ -76,7 +76,7 @@ ul {
 }
 
 .introduction {
-    height: 1080px;
+    height: 100vh;
     display: flex;
     align-items: center;
     background: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../img/5.jpg) center no-repeat;
@@ -85,7 +85,7 @@ ul {
 
 .main-title {
     font-family: 'Montserrat', sans-serif;
-    font-size: 76px;
+    font-size: 68px;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
