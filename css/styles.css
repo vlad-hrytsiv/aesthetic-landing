@@ -40,6 +40,7 @@ ul {
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .main-header {
@@ -350,4 +351,46 @@ ul {
 
 .section-title.white {
     color: #ffffff;
+}
+
+.process-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 190px;
+}
+
+.process-item-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #00bcd4;
+}
+
+.process-item-title::after {
+    display: block;
+    content: "";
+    width: 130px;
+    border-bottom: 1px solid #00bcd4;
+    margin: 30px 0;
+}
+
+.process-item-description {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    max-width: 320px;
+}
+
+.process-numeration {
+    position: absolute;
+    margin-top: -65px;
+    margin-left: -40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 99px;
+    font-weight: 700;
+    color: #ffffff;
+    opacity: 0.04;
 }
