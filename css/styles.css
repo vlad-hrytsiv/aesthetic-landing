@@ -79,6 +79,7 @@ ul {
 }
 
 .introduction {
+    min-height: 700px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -222,15 +223,15 @@ ul {
 }
 
 .extra-info-item:first-child {
-    background: #363e3a;
+    background: linear-gradient( rgba(54, 62, 58, 0.9), rgba(54, 62, 58, 0.9)), url(https://leo-green.com/wp-content/uploads/2018/09/12.jpg);
 }
 
 .extra-info-item:nth-child(2) {
-    background: #8253ab;
+    background: linear-gradient( rgba(130, 83, 181, 0.9), rgba(130, 83, 181, 0.9)), url(https://www.adobe.com/content/dam/acom/uk/products/creativecloud/tools/p15-web-design/p15-segments-dw-3-433x272.jpg);
 }
 
 .extra-info-item:nth-child(3) {
-    background: #00bcd4;
+    background: linear-gradient( rgba(0, 188, 212, 0.9), rgba(0, 188, 212, 0.9)), url(https://www.rswebsols.com/wp-content/uploads/2018/12/website-design-development-work-desk-office.jpg);
 }
 
 .extra-item-content {
