@@ -300,6 +300,8 @@ ul {
 
 .advantages-item {
     display: inline-block;
+    width: 240px;
+    margin-bottom: 100px;
 }
 
 .advantages-title {
