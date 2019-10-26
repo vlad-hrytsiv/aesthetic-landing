@@ -154,7 +154,7 @@ ul {
 }
 
 .section-title.about-us {
-    margin: 100px 0;
+    padding: 100px 0;
 }
 
 .about-us-inner{
@@ -293,6 +293,11 @@ ul {
     padding-bottom: 120px;
 }
 
+.advantages {
+    background: linear-gradient( rgba(241, 244, 243, 0.95), rgba(241, 244, 243, 0.95)), url() center no-repeat;
+    background-size: cover;
+}
+
 .advantages-list {
     display: flex;
     flex-direction: row;
@@ -346,7 +351,8 @@ ul {
 }
 
 .process {
-    background-color: #202030;
+    background: linear-gradient( rgba(24, 24, 40, 0.95), rgba(24, 24, 40, 0.95)), url(../img/6.jpg) center no-repeat;
+    background-size: cover;
 }
 
 .section-title.white {
