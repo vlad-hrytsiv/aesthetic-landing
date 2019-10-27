@@ -153,7 +153,8 @@ ul {
     /* color: #ffffff; */
 }
 
-.section-title.about-us {
+.section-title.about-us,
+.section-title.portfolio {
     padding: 100px 0;
 }
 
@@ -399,4 +400,10 @@ ul {
     font-weight: 700;
     color: #ffffff;
     opacity: 0.04;
+}
+
+.works-item {
+    width: 380px;
+    height: 350px;
+    background-color: #585858;
 }
