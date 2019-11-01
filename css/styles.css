@@ -501,3 +501,20 @@ ul {
 .teammate-social-networks {
     margin-bottom: 40px;
 }
+
+.working-time {
+    height: 245px;
+    background-color: #2ec4d8;
+}
+
+.working-time-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #3c3950;
+}
+
+.working-time-info {
+    
+}
