@@ -154,7 +154,8 @@ ul {
 }
 
 .section-title.about-us,
-.section-title.portfolio {
+.section-title.portfolio,
+.section-title.contacts-t {
     padding: 100px 0;
 }
 
@@ -463,6 +464,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 100px;
 }
 
 .teammate {
@@ -507,6 +509,26 @@ ul {
     background-color: #2ec4d8;
 }
 
+.working-time-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.working-time-inner::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../img/clock-icon.png);
+    background-size: cover;
+    width: 80px;
+    height: 81px;
+}
+
+.text-information {
+    margin-left: 30px;
+}
+
 .working-time-title {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
@@ -515,6 +537,65 @@ ul {
     color: #3c3950;
 }
 
-.working-time-info {
-    
+.working-hours {
+    margin-top: 30px;
+}
+
+.working-hours td {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.contacts {
+    background: linear-gradient( rgba(24, 24, 40, 0.93), rgba(24, 24, 40, 0.93)), url(../img/2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contacts-item {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.contact-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.contact-title::before {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    background-color: #3f70ca;
+    margin: 0 auto 25px;
+}
+
+.det-contacts-list {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #99a9b5;
+}
+
+.form-section {
+    background-color: #212331;
+}
+
+.feedback-form {
+    padding: 140px 0;
+}
+
+.main-footer {
+    background-color: #181828;
 }

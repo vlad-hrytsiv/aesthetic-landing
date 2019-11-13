@@ -225,26 +225,76 @@
         </section>
         <section class="working-time">
             <div class="container">
-                <div class="working-time-info">
-                    <h2 class="working-time-title">Working hours</h2>
-                    <table class="working-hours">
-                        <tbody>
-                            <tr>
-                                <td>Понеділок - п'ятниця</td>
-                                <td>14:00 - 23:00</td>
-                            </tr>
-                            <tr>
-                                <td>Субота - неділя</td>
-                                <td>8:00 - 23:00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="working-time-inner">
+                    <div class="text-information">
+                        <h2 class="working-time-title">Working hours</h2>
+                        <table class="working-hours">
+                            <tbody>
+                                <tr>
+                                    <td>Понеділок - п'ятниця</td>
+                                    <td>14:00 - 21:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Субота - неділя</td>
+                                    <td>8:00 - 21:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts">
+            <div class="container">
+                <h2 class="section-title white contacts-t">Контакти</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item">
+                        <h3 class="contact-title">Моб. номери</h3>
+                        <ul class="det-contacts-list">
+                            <li class="det-contacts-item">Vodafone: +38 (099) 098 82 10</li>
+                            <li class="det-contacts-item">KS: +38 (068) 332 21 71</li>
+                        </ul>
+                    </li>
+                    <li class="contacts-item">
+                        <h3 class="contact-title">WEB</h3>
+                        <ul class="det-contacts-list">
+                            <li class="det-contacts-item">development@aestheticweb.com</li>
+                            <li class="det-contacts-item">aestheticweb.com</li>
+                        </ul>
+                    </li>
+                    <li class="contacts-item">
+                        <h3 class="contact-title">Робочий час</h3>
+                        <ul class="det-contacts-list">
+                            <li class="det-contacts-item">Пн-Пт: 14:00 - 21:00</li>
+                            <li class="det-contacts-item">Сб-Нд: 8:00 -21:00</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="form-section">
+                <div class="container">
+                    <form action="" class="feedback-form">
+                        <label for="user-name" class="visually-hidden">Ваше ім'я</label>
+                        <input type="text" name="user-name" id="user-name" placeholder="Вкажіть ім'я" required>
+
+                        <label for="user-email" class="visually-hidden">Ваш email</label>
+                        <input type="email" name="user-email" id="user-email" placeholder="Вкажіть email">
+
+                        <label for="user-phone" class="visually-hidden">Ваш номер телефону</label>
+                        <input type="text" name="user-phone" id="user-phone" placeholder="Вкажіть номер телефону" required>
+
+                        <label for="user-message" class="visually-hidden">Опишіть Вашу задачу</label>
+                        <textarea name="user-message" id="user-message" placeholder="Опишіть Вашу задачу" required></textarea>
+
+                        <button id="send-button" class="feedback-button">Зробити перший крок :D</button>
+                        <div id="result-form"></div>
+                    </form>
                 </div>
             </div>
         </section>
     </main>
-    <footer>
-
+    <footer class="main-footer">
+        
     </footer>
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/scripts.js" async></script>
