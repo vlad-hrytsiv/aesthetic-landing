@@ -573,30 +573,29 @@ ul {
     margin-bottom: 30px;
 }
 
-.contact-title::before {
+.contact-title::before{
     content: "";
     display: block;
     width: 50px;
     height: 50px;
     border-radius: 3px;
-    background-color: #3f70ca;
     margin: 0 auto 25px;
+}
+
+.contact-title.first::before {
+    background-color: #00d4aa;
+}
+
+.contact-title.second::before {
+    background-color: #3f70ca;
+}
+
+.contact-title.third::before {
+    background-color: #ada014;
 }
 
 .det-contacts-list {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     color: #99a9b5;
-}
-
-.form-section {
-    background-color: #212331;
-}
-
-.feedback-form {
-    padding: 140px 0;
-}
-
-.main-footer {
-    background-color: #181828;
 }
