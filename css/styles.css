@@ -561,7 +561,7 @@ ul {
 .contacts-item {
     text-align: center;
     margin-bottom: 100px;
-    width: 200px;
+    width: 280px;
 }
 
 .contact-title {
@@ -583,14 +583,17 @@ ul {
 }
 
 .contact-title.first::before {
+    content: url();
     background-color: #00d4aa;
 }
 
 .contact-title.second::before {
+    content: url();
     background-color: #3f70ca;
 }
 
 .contact-title.third::before {
+    content: url();
     background-color: #ada014;
 }
 
@@ -598,4 +601,8 @@ ul {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 16px;
     color: #99a9b5;
+}
+
+.main-footer {
+    background-color: #181828;
 }
