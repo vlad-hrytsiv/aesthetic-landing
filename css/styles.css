@@ -580,20 +580,21 @@ ul {
     height: 50px;
     border-radius: 3px;
     margin: 0 auto 25px;
+    padding: 13px;
 }
 
 .contact-title.first::before {
-    content: url();
+    content: url(../img/phone.png);
     background-color: #00d4aa;
 }
 
 .contact-title.second::before {
-    content: url();
+    content: url(../img/ui.png);
     background-color: #3f70ca;
 }
 
 .contact-title.third::before {
-    content: url();
+    content: url(../img/work.png);
     background-color: #ada014;
 }
 
